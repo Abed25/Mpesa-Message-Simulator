@@ -1,0 +1,41 @@
+.wrapper {
+  padding: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.button {
+  background-color: #0e9f6e;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.button:hover {
+  background-color: #0b7c56;
+}
+
+.messageBox {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f3f4f6;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+  white-space: pre-wrap;
+  font-size: 0.875rem;
+  color: #333;
+}
